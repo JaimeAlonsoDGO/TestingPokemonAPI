@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+}
+
+.container{
+    border: 1px solid black;
+    height: 600px;
+    width: 500px;
+    margin: 3em auto;
+    background: hsla(0, 100%, 39%, 1);
+    border-radius: 2em;
+}
+
+.pokemon-container{
+    height: 400px;
+    width: 400px;
+    margin: 2em auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button-container{
+    height: 50px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: .8em;
+    cursor: pointer;
+    background:hsla(247, 100%, 31%, 1) ;
+    border-radius: 1em;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.button-container:hover{
+    background:rgb(70, 53, 201) ;
+}
+
+.pokemon-sprite{
+    width: 300px;
+    border: 5px solid white;
+    background-image: linear-gradient(135deg, hsla(176, 100%, 50%, 1), hsla(203, 100%, 51%, 1));
+    border-radius: 1em;
+}
+
+.pokemon-name{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
+.api-name{
+    text-transform: uppercase;
+}
+
+.pokemon-selector{
+    margin-bottom: 1em;
+    text-align: center;
+    color: white;
+}
